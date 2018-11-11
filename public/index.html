@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>askBook.co</title>
+
+	<!-- Bootstrap core CSS -->
+	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Custom fonts for this template -->
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i"
+	      rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i"
+	      rel="stylesheet">
+	<link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+
+	<!-- Custom styles for this template -->
+	<link href="css/coming-soon.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="overlay"></div>
+<video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+	<source src="mp4/bg2.mp4" type="video/mp4">
+</video>
+
+<div class="masthead">
+	<div class="masthead-bg"></div>
+	<div class="container h-100">
+		<div class="row h-100">
+			<div class="col-12 my-5">
+				<div class="app-logo text-center">
+					<img src="img/logo.svg">
+					<h1>askBook</h1>
+				</div>
+
+				<div class="masthead-content text-white py-5 py-md-0">
+					<p class="mb-5 description">
+					<h2>Give a second life for your books!</h2>
+					<p class='description-nested'>What do you do with books after you read/reread them?</p>
+					<p>90% form 70 asked people said that they put the books to the shelf!</p>
+					<p class='description-nested2'>Now we can give the second life to our books</p>
+					<div id="notifyForm" class="input-group input-group-newsletter">
+						<input id="email" type="email" class="form-control" placeholder="Enter email..."
+						       aria-label="Enter email..."
+						       aria-describedby="basic-addon">
+						<div class="input-group-append">
+							<button id="submitEmail" class="btn btn-secondary" type="button">Notify Me!</button>
+						</div>
+					</div>
+					<p id="thankYou" style="display: none">Thank you!</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="social-icons">
+	<ul class="list-unstyled text-center mb-0">
+		<li class="list-unstyled-item">
+			<a href="https://twitter.com/?lang=en">
+				<i class="fab fa-twitter"></i>
+			</a>
+		</li>
+		<li class="list-unstyled-item">
+			<a href="https://www.facebook.com/askBook-773842386287014/?modal=admin_todo_tour">
+				<i class="fab fa-facebook-f"></i>
+			</a>
+		</li>
+		<li class="list-unstyled-item">
+			<a href="https://www.instagram.com/">
+				<i class="fab fa-instagram"></i>
+			</a>
+		</li>
+	</ul>
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/5.5.8/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: 'AIzaSyCfPH-FC_mTEDkPlbPFSVQAb4A380zhyI4',
+    authDomain: 'askbook-89403.firebaseapp.com',
+    databaseURL: 'https://askbook-89403.firebaseio.com',
+    projectId: 'askbook-89403',
+    storageBucket: 'askbook-89403.appspot.com',
+    messagingSenderId: '204708459259',
+  }
+  firebase.initializeApp(config)
+</script>
+
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Custom scripts for this template -->
+<script src="js/coming-soon.js"></script>
+
+</body>
+
+</html>
